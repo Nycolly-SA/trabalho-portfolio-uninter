@@ -1,2 +1,2 @@
 # trabalho-portfolio-uninter
-Website de portfolio feio para o trabalho da faculdade.
+Website de portfolio feito para o trabalho da faculdade.

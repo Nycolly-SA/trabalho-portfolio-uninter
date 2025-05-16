@@ -1,0 +1,111 @@
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Nycolly Azeredo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+ </head>
+    <body>
+        <header>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+                <ul class="menu">
+                    <li><a href="#" onclick="mostrarSecao('sobre-mim')" class="link link-ativo">Sobre Mim</a></li>
+                    <li><a href="#" onclick="mostrarSecao('curriculo')" class="link">Currículo</a></li>
+                    <li><a href="#" onclick="mostrarSecao('projetos')" class="link">Projetos</a></li>
+                    <li><a href="#" onclick="mostrarSecao('contato')" class="link">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre-mim" class="secao">
+                <h2>Olá! Sou a Nycolly &#128075;</h2>
+                <p>Estudante de Engenharia de Software, com foco em Back-End e Análise de Dados. Aprofundando conhecimentos em Python, SQL, R, Excel, Power BI e Tableau, aplicados à análise, visualizações e gestão de dados.</p>
+                <br>
+                <p>Experiência prévia com atendimento ao cliente, onde desenvolvi habilidades interpessoais, comunicação eficaz, resolução de problemas, inteligência emocional e organização.</p>
+            </section>
+
+            <section id="curriculo" class="secao">
+                <h1>Currículo</h1>
+                <div class="curriculo">
+                    <div class="formacao">
+                        <h3>Formação acadêmica e complementar</h3>
+                        <ul>
+                            <li>Bacharelado em Engenharia de Software - UNINTER (2027)</li>
+                            <li>Google Data Analytics - Google (2023)</li>
+                            <li>Bootcamp NTT DATA, Engenharia de Dados - DIO (2024)</li>
+                            <li>Lógica de programação - SENAI (2023)</li>
+                            <li>Inglês - Educa Work (2019)</li>
+                        </ul>
+                    </div>
+                    <div class="habilidades-tecnicas">
+                        <h3>Habilidades Técnicas</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>R</li>
+                            <li>Excel</li>
+                            <li>Power BI</li>
+                            <li>Tableau</li>
+                            <li>SQLite, PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="habilidades-interpessoais">
+                        <h3>Habilidades Interpessoais</h3>
+                        <ul>
+                            <li>Adaptabilidade</li>
+                            <li>Autodidata</li>
+                            <li>Capacidade de organização</li>
+                            <li>Colaboração</li>
+                            <li>Comprometimento</li>
+                            <li>Comunicação</li>
+                            <li>Criatividade</li>
+                            <li>Exgigente e detalhista</li>
+                            <li>Flexibilidade</li>
+                            <li>Inteligência emocional</li>
+                            <li>Resolução de problemas</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="projetos" class="secao">
+                <h1>Projetos</h1>
+                <div class="projetos">
+                    <div class="projeto">
+                        <h3>Stats Preview Card</h3>
+                        <a href="https://github.com/Nycolly-SA/stats-preview-card" target="_blank"> <img src="/images/desktop 2.png" alt="Imagem do Projeto 2"></a>
+                        <p>Website feito com HTML e CSS. Desenvolvido no modelo one page</p>
+                    </div>
+                    <div class="projeto">
+                        <h3>Single Price Grid</h3>
+                        <a href="https://github.com/Nycolly-SA/single-price-grid" target="_blank"> <img src="/images/desktop.png" alt="Imagem do Projeto 2"></a>
+                        <p>Website feito com HTML e CSS. Segue o modelo de one page. Feito com grid e elementos simples.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="contato" class="secao">
+                <h1>Contato</h1>
+                <div class="contato">
+                    <p>Entre em contato comigo pelo formulário abaixo, ou através do email <b>nycollysaz@gmail.com</b></p>
+                    <form action="#" method="post">
+                        <input type="text" id="name" name="name" placeholder="Nome" required>
+            
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+            
+                        <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                        
+                        <div class="button-wrapper">
+                            <button type="submit">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            &copy; 2025 Nycolly Azeredo
+        </footer>
